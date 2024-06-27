@@ -1,24 +1,17 @@
-# bindingdeformularios
+# Binding de formularios Tarjeta de crédito - Nicolás Valderrama
 
-## Project setup
-```
-npm install
-```
+1.- Se enlaza el valor de los inputs con el estado de manera bidireccional usando el v-model.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![alt text](src/assets/readmeImages/input_valor.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2.- Se interpola en las etiquetas que correspondan las variables del estado.
 
-### Lints and fixes files
-```
-npm run lint
-```
+![alt text](src/assets/readmeImages/interpolation.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3.- Se crean las variables del estado correspondiente a la información de la tarjeta.
+
+![alt text](src/assets/readmeImages/state.png)
+
+4.- Se enlazan las rutas de las imágenes usando el binding unidireccional en el atributo src por medio del formulario.
+
+![alt text](src/assets/readmeImages/imageRoute.png)
